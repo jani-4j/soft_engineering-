@@ -17,54 +17,26 @@ java alaMaKota.Main             run the script
 # C:\WorkDir\.vscode\launh.json 
 ```json
     {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "(gdb) Attach",
-      "type": "cppdbg",
-      "request": "attach",
-      "program": "enter program name, for example ${workspaceFolder}/a.exe",
-      "MIMode": "gdb",
-      "miDebuggerPath": "/path/to/gdb",
-      "setupCommands": [
-        {
-          "description": "Enable pretty-printing for gdb",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
-        },
-        {
-          "description": "Set Disassembly Flavor to Intel",
-          "text": "-gdb-set disassembly-flavor intel",
-          "ignoreFailures": true
-        }
-      ]
-    },
-    {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "cppdbg",
-      "request": "launch",
-      "args": [],
-      "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "c:/WorkDir",
-      "program": "c:/WorkDir/build/Debug/outDebug",
-      "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
-      "setupCommands": [
-        {
-          "description": "Enable pretty-printing for gdb",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
-        }
-      ]
-    },
+     "type": "java",
+     "name": "Debug Januszek",
+     "request": "launch",
+     "mainClass": "token.kacper.Januszek"
+    }
+    
     {
       "type": "java",
       "name": "Debug Java Program",
       "request": "launch",
-      "mainClass": "alaMaKota.Main"
-    }
-  ]
-}
+      "mainClass": "token.one"
+    }    
+```
+## catalog structure
 
+```
+└── token
+    ├── kacper
+    │   ├── Januszek.class
+    │   └── Januszek.java
+    ├── one.class
+    └── one.java
 ```
