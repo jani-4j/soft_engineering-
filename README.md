@@ -6,6 +6,9 @@ ls - list
 cd - change direction 
 ls -lah list wyświetla pliki i katologi ukryte i pokazuje icgh zawartość oraz właściciela 
 grep -r - wyszukaj
+mkdir <catalog> - mowy katalog
+touch <file> - nowy plik
+nano <file> - edytor
 
 ## WSL
 # java commands
