@@ -8,13 +8,13 @@ ls -lah list wyświetla pliki i katologi ukryte i pokazuje icgh zawartość oraz
 grep -r - wyszukaj
 
 ## WSL
-## java commands
+# java commands
 cd ~/WorkDir/soft_engineering-  go to catalog
 javac alaMaKota/Main.java       compile the file (ex. *.java)
 java alaMaKota.Main             run the script
 
 ## VSC
-## C:\WorkDir\.vscode\launh.json 
+# C:\WorkDir\.vscode\launh.json 
 ```json
     {
   "version": "0.2.0",
