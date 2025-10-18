@@ -16,6 +16,12 @@ cd ~/WorkDir/soft_engineering-  go to catalog
 javac alaMaKota/Main.java       compile the file (ex. *.java)
 java alaMaKota.Main             run the script
 
+--
+### in project
+javac src/main/java/edu/io/Main.java
+java -cp src/main/java edu.io.Main
+
+
 ## VSC
 # C:\WorkDir\.vscode\launh.json 
 ```json
